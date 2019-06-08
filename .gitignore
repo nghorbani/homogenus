@@ -7,7 +7,6 @@ py_env/
 logs/
 *.job.*
 *.h5
-images/
 workspace.xml
 dist/
 datasets/
@@ -116,4 +115,4 @@ venv.bak/
 
 # mypy
 .mypy_cache/
-homogenus/trained_models
+homogenus/trained_models/tf/*
