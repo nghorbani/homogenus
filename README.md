@@ -1,7 +1,7 @@
 # Human Image Gender Classifier
 
 
-This is the official repository of the Humun Gender Classifier (Homogenus) used in the paper 
+This is the official repository of the Human Gender Classifier (Homogenus) used in the paper 
 
 ***Expressive Body Capture: 3D Hands, Face, and Body from a Single Image.***
 
@@ -84,7 +84,7 @@ python3 -m homogenus.tf.homogenus_infer -ii ./samples/images/ -io ./samples/imag
 
 Free for non-commercial and scientific research purposes. By using this code, you acknowledge that you have read the license terms (https://smpl-x.is.tue.mpg.de/license), understand them, and agree to be bound by them. If you do not agree with these terms and conditions, you must not use the code. For commercial use please check the website (https://smpl-x.is.tue.mpg.de/license).
 
-## Referencing SMPL-X
+## Referencing Homogenus
 
 Please cite the following paper if you use this code directly or indirectly in your research/projects.
 ```
@@ -99,7 +99,3 @@ Please cite the following paper if you use this code directly or indirectly in y
 ## Contact
 
 If you have any questions you can contact us at smplx@tuebingen.mpg.de
-
-## Acknowledgement
-
-* We thank Benjamin Pellkofer and Jonathan Williams for helping with our [smpl-x project website](https://smpl-x.is.tue.mpg.de).
