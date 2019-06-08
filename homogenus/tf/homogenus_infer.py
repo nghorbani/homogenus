@@ -152,6 +152,11 @@ class Homogenus_infer(object):
             openpose_out_fname = os.path.join(openpose_outdir, im_basename.replace('.%s'%img_ext, '_keypoints.json'))
             with open(openpose_out_fname, 'w') as f: json.dump(pose_data, f)
 
+        if images_outdir is not None:
+            sys.stdout.write('Dumped overlayed images at %s'%images_outdir)
+        sys.stdout.write('Dumped gendered openpose keypoints at %s'%openpose_outdir)
+
+
 
 if __name__ == '__main__':
     import argparse
