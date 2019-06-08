@@ -1,5 +1,6 @@
 # Human Image Gender Classifier
 
+![alt text](samples/github-demo.png "Homogenus applied on in-the-wild images of the LSP dataset")
 
 This is the official repository of the Human Gender Classifier (Homogenus) used in the paper 
 
@@ -79,6 +80,7 @@ This command will print the predictions as well as creating new gendered openpos
 ```bash
 python3 -m homogenus.tf.homogenus_infer -ii ./samples/images/ -io ./samples/images_gendered/ -oi ./samples/openpose_keypoints/ -oo ./samples/openpose_keypoints_gendered/
 ```
+The headline image of this repository shows all these samples from the [LSP](http://dx.doi.org/10.5244/C.24.12) in-the-wild image dataset with overlayed genders for the [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) detected full-body humans.
 
 ## License
 
