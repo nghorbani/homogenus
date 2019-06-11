@@ -5,10 +5,9 @@
 This is the official repository of the Human Gender Classifier (Homogenus) used in the paper 
 
 ***Expressive Body Capture: 3D Hands, Face, and Body from a Single Image.***
+	
+Numerous methods have classified human gender using face images. In full-body images of a person, the face may be small or not visible.  Here we trained a classifier to analyze gender based on full-body images. The input to the classifier its a full-body human image and the 2D key points detected by OpenPose.  We use information about gender in our SMPLify-X code to select the appropriate 3D body model. Note that gender is non-binary — SMPLify-X has male, female, and neutral body models.  When the classifier is certain, we use the corresponding gendered model.  When it is uncertain, we use the neutral one. This codebase consists of the inference code. 
 
-The codebase consists of the inference code. That is, given full-body human images, and their [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) 
-output json files, one can augment the keypoint dectections of the openpose with the predicted gender of the detected human. 
-The output classes would be either male, female, or neutral for undetected genders. 
 For further details on the method please refer to the following publication,
 
 ```
@@ -22,8 +21,7 @@ A pdf preprint is also available on the [project page](https://smpl-x.is.tue.mpg
 
 ## Installation
 
-The code uses Python 3.7 and is tested on tensorflow-gpu version 1.13.1tensorboard==1.13.1
-, with CUDA-10.0 and cuDNN-7.5, running on Ubuntu 18.04.
+The code uses Python 3.7 and is tested on tensorflow-gpu version 1.13.1, tensorboard==1.13.1, with CUDA-10.0 and cuDNN-7.5 running on Ubuntu 18.04.
 
 ### Setup homogenus Virtual Environment
 
