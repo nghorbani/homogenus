@@ -99,4 +99,5 @@ Please cite the following paper if you use this code directly or indirectly in y
 ## Contact
 
 If you have any questions you can contact us at smplx@tuebingen.mpg.de
+
 For commercial licensing, contact ps-licensing@tue.mpg.de
