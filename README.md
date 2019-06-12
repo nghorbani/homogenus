@@ -97,8 +97,11 @@ Please cite the following paper if you use this code directly or indirectly in y
 ```
 
 ## Contact
+The code in this repository is developed by [Nima Ghorbani](https://ps.is.tuebingen.mpg.de/person/nghorbani).
 
-If you have any questions you can contact us at smplx@tuebingen.mpg.de
+If you have any questions you can contact us at [smplx@tuebingen.mpg.de](mailto:smplx@tuebingen.mpg.de).
 
-## Commercial licensing opportunities
-For commercial licensing, contact ps-licensing@tue.mpg.de
+For commercial licensing, contact [ps-licensing@tue.mpg.de](mailto:ps-licensing@tue.mpg.de)
+
+## Acknowledgment
+We thank [Pavel Karasik](mailto:pavel.karasik@student.uni-tuebingen.de) for helping in the dataset gathering and processing stage.
