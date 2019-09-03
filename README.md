@@ -22,11 +22,8 @@ A pdf preprint is also available on the [project page](https://smpl-x.is.tue.mpg
 ## Installation
 **Requirements**
 - Python 3.7
-- [TensorFlow 1.13.1]
+- [TensorFlow 1.13.1](https://www.tensorflow.org/install/pip)
 - [Configer](https://github.com/nghorbani/configer)
-- [PyTorch 1.1.0](https://pytorch.org/get-started/previous-versions/)
-- [Torchgeometry 0.1.2](https://pypi.org/project/torchgeometry/0.1.2/)
-- [Pyrender](https://pyrender.readthedocs.io/en/latest/install/index.html#osmesa) for visualizations
 
 Tested with CUDA-10.0 and cuDNN-7.5 running on Ubuntu 18.04.
 
