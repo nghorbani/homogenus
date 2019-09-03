@@ -27,15 +27,8 @@ A pdf preprint is also available on the [project page](https://smpl-x.is.tue.mpg
 
 Tested with CUDA-10.0 and cuDNN-7.5 running on Ubuntu 18.04.
 
-### Setup homogenus Virtual Environment
+Install from this repository for the latest developments:
 
-```bash
-venv_dir=~/.virtualenvs/homogenus
-python3 -m venv $venv_dir --system-site-packages
-source $venv_dir/bin/activate
-```
-
-### Install from git directly:
 ```bash
 pip install git+https://github.com/nghorbani/homogenus
 ```
