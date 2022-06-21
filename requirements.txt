@@ -1,5 +1,5 @@
 imageio==2.5.0
-numpy==1.16.3
+numpy==1.22.0
 scikit-image==0.15.0
 scikit-learn==0.20.3
 scipy==1.2.1
