@@ -18,9 +18,15 @@
 # Code Developed by: Nima Ghorbani <https://www.linkedin.com/in/nghorbani/>
 # 2018.11.07
 
-import tensorflow as tf
+import sys
+import tensorflow.compat.v1 as tf
+tf.disable_v2_behavior()
+
+# import tensorflow as tf
 import numpy as np
 import os, glob
+
+import homogenus
 
 class Homogenus_infer(object):
 
@@ -65,6 +71,8 @@ class Homogenus_infer(object):
         :param openpose_outdir: If given will dump the gendered openpose files in this directory. if not will augment the origianls
         :return:
         '''
+
+
 
         import os, sys
         import json

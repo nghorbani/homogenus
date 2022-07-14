@@ -29,8 +29,13 @@ Tested with CUDA-10.0 and cuDNN-7.5 running on Ubuntu 18.04.
 
 Install from this repository for the latest developments:
 
+
 ```bash
-pip install git+https://github.com/nghorbani/homogenus
+python3.7 -m venv .venv
+source .venv/bin/activate
+git clone https://github.com/Hyrtsi/homogenus.git
+pip install --upgrade pip
+python3 setup.py install
 ```
 
 ## Download models
@@ -71,8 +76,9 @@ As an example, inside the homogenus folder you can run the following to get the 
 This command will print the predictions as well as creating new gendered openpose keypoints and gender overlayed images.  
 
 ```bash
-python3 -m homogenus.tf.homogenus_infer -ii ./samples/images/ -io ./samples/images_gendered/ -oi ./samples/openpose_keypoints/ -oo ./samples/openpose_keypoints_gendered/
+python3 test.py -tm homogenus/trained_models/tf -ii ./samples/images/ -oi ./samples/openpose_keypoints/ -io out/img -oo out/pose
 ```
+
 The headline image of this repository shows all these samples from the [LSP](http://dx.doi.org/10.5244/C.24.12) in-the-wild image dataset with overlayed genders for the [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) detected full-body humans.
 
 ## License
